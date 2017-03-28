@@ -1,0 +1,4 @@
+user
++19372034641
+insert into texts (Msg_SID,Direction,Sender_Num,Text_Content,Cost, Msg_Status, Date_sent)
+        VALUES ('1','Outgoing','+19372034641','FIRE','1','Sent',NOW())+18647065970here?

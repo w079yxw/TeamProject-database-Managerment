@@ -1,0 +1,2 @@
+SELECT EM_ID FROM logins WHERE User_name = 'user'1SELECT EM_ID FROM employees WHERE EM_Phone = '+15134357101'10SELECT EM_Phone from employees where EM_ID = '1'+19372034641INSERT into texts (Msg_SID,Direction,Sender_Num,Text_Content,Cost, Msg_Status, Date_sent)
+    VALUES ('1','OutgoingAPI','+19372034641','THIS IS A TEST MESSAGE','1','Recieved',NOW())SELECT MAX(Text_ID) AS Text_ID FROM texts WHERE Sender_Num = '+19372034641'67INSERT INTO recievers(`Text_ID`, `Recv_EM_ID`, `View_Status`, `Date_recieved`) VALUES ('67','10','Unread',NOW())
